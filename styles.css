@@ -1,0 +1,105 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+img {
+    
+}
+
+.hero-section {
+    background-image: url("images/london.jpeg");
+    background-size: cover;
+    color: #ffffff;
+    padding: 122px 260px 287px 259px;
+}
+
+.hero-section h1 {
+    background-color: #1D3557; 
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.hero-section h2 {
+    background-color: #457B9D;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.activity-section {
+    background: #F1FAEE;
+    padding: 20px;
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+}
+
+.highlights a{
+    color: #1D3557
+}
+
+.highlights img {
+    border-radius: 50%;
+    height: 80px
+ 
+}
+
+.highlights div {
+    max-width: 25%;
+    border: 3px solid #1D3557;
+    padding: 20px;
+}
+
+#oxford:hover {
+    background: #A8DADC;
+}
+
+#soho:hover {
+    background: #A8DADC;
+    cursor: pointer
+}
+
+#westfield:hover {
+    background: #A8DADC;
+    cursor: pointer
+}
+
+.guide-section {
+    width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #90e0ef;
+    color: #2b2839;
+    border-bottom: 15px solid #03045e;
+    border-radius: 10px;   
+}
+
+.guide-section div {
+    max-width: 60%;
+}
+
+.guide-section img {
+    width: 140px;
+}
